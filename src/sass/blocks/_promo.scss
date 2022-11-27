@@ -1,7 +1,7 @@
 .promo {
     min-height: 650px;
     padding: 21px 0 93px 0;
-    background: url(../img/main.jpg) center (center/cover) no-repeat;
+    background: url('../img/main.jpg') center (center/cover) no-repeat;
     &__wrapper {
         display: flex;
         flex-direction: column;
@@ -42,12 +42,12 @@
         }
     }
     &__link {
-        color: #ffffff;
+        color:#ffffff;
         font-size: 16px;
         font-weight: 500;
         margin-top: 18px;
         a {
-            color: #ffffff;
+            color:#ffffff;
             text-transform: uppercase;
             text-decoration: underline;
         }

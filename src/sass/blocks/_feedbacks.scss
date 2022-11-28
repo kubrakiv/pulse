@@ -1,0 +1,35 @@
+.feedbacks {
+    padding-bottom: 48px;
+    &__item {
+        display: flex;
+        margin-top: 105px;
+        &:nth-child(2){
+            margin-top: 60px;
+        }
+    }
+    &__img {
+        width: 169px;
+        height: 169px;
+    }
+    &__text {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    &__name {
+        color: #0D0D0D;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    &__counter {
+        color: #646464;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    &__descr {
+        color: #0D0D0D;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 10px;
+    }
+}

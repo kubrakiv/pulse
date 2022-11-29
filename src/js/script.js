@@ -84,5 +84,7 @@ document.querySelector('.next').addEventListener('click', function () {
 	valideForms('#consultation form');
 	valideForms('#order form');
 
+	$('input[name=phone]').mask("+38 (999) 999-9999");
+
 })(jQuery);
 
